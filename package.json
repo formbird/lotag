@@ -1,7 +1,9 @@
 {
-  "name": "module-loader",
-  "version": "1.0.0",
-  "description": "",
+  "name": "lotag",
+  "version": "0.1.0",
+  "description": "Load script tags dynamically",
+  "repository": "https://github.com/formbird/lotag",
+  "readme": "README.md",
   "main": "src/index.mjs",
   "types": "dist/types/src/index.d.mts",
   "type": "module",
@@ -13,8 +15,11 @@
     "build": "tsc",
     "test": "web-test-runner"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "async",
+    "loader"
+  ],
+  "author": "Muhammad Hamza <mhamza@formbird.com>",
   "license": "ISC",
   "devDependencies": {
     "@esm-bundle/chai": "^4.3.4-fix.0",
